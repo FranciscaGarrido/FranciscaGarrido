@@ -1,0 +1,408 @@
+body{
+	font-family: font-family: "Titillium Web", sans-serif;
+}
+
+/* MENÚ */
+nav.navbar.navbar-expand-md.navbar-light.bg-light {
+	background: transparent !important;
+}
+
+a.nav-item.nav-link {
+	color: #fff !important;
+}
+
+a.nav-item.nav-link:hover {
+    text-decoration: overline;
+    transition: 4s;
+}
+
+/* FIN MENÚ */
+
+/* INICIO  */
+.container-bckg{
+	background-image: url(imgs/bkgr-francisca-garrido.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	border-bottom: solid 40px #e72a60;
+}
+
+.container-name{
+  text-align: center;
+  margin: 185px auto;
+}
+
+.titleName {
+	font-size: 70px;
+	margin-bottom: -20px;
+	color: #fff;
+	text-shadow: #eae7e9 0 0 10px;
+}
+
+.subTittleName{
+	color: #f9c0e5;
+	margin: auto;
+	padding: 15px;
+  font-size: 18px;
+}
+
+/* FIN INICIO */
+
+/* SOBRE MI */
+
+.container-space.row {
+	margin: auto;
+	align-items: center
+}
+
+.container-aboutMe {
+	background: #eae7e9;
+	margin-top: -20px;
+}
+
+h1.titleAboutMe {
+	text-align: center;
+	color: #e72a605c;
+	text-transform: uppercase;
+	font-size: 90px;
+}
+
+h2.titleAboutMeTwo {
+	text-align: center;
+	margin-top: -125px;
+	font-size: 30px;
+	font-family: monospace;
+}
+
+p.infoAboutMe {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+img.imgMe {
+  width: 320px;
+  height: 250px;
+  border: solid #e72a60 !important;
+  margin: 50px 150px;
+}
+
+img.imgLogoMe {
+	background: #e72a60;
+	margin: 200px auto auto -530px;
+	width: 100px;
+	height: 100px;
+}
+
+.container-infoAboutMe.col-xs-12.col-sm-6 {
+	background: #F82461;
+	border-radius: 2px;
+}
+
+/* FIN  SOBRE MI */
+
+/* MIS PROYECTOS */
+
+.containerProyects.row {
+	margin: 0% 0% 0% 15%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.container-briefCase.cont-section {
+	text-align: center !important;
+	width: 100%;
+	height: 100%;
+}
+
+.container-briefCase.cont-section h1 {
+	color: rgba(231, 42, 96, 0.36);
+	text-transform: uppercase;
+	font-size: 70px;
+}
+
+.container-briefCase.cont-section h2 {
+	margin-top: -75px;
+	font-size: 70px;
+	color: #E72A60;
+	text-transform: uppercase;
+}
+
+.contentProyectFirst, .contentProyectSecond, .contentProyectThird{
+	position: relative;
+}
+
+.containerProyects.row img {
+	width: 200px;
+	filter: grayscale(100%);
+	display:block;
+}
+
+.tittleProyectFirst, .tittleProyectSecond, .tittleProyectThird{
+	display: none;
+}
+
+.containerProyects.row img:hover {
+	filter: none;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+/* MODAL */
+
+div#modalSocialBeer, div#modalBurgerQueen, div#modalMarkdownLinks  {
+	width: 100% !important;
+}
+
+.modal-header {
+	border-bottom: 2px solid rgba(231, 42, 96, 0.36);
+}
+
+button.close {
+	color: #E72A60;
+	font-size: 30px;
+}
+
+button.close:hover {
+	color: rgb(231, 42, 96);
+}
+
+button.btn.btn-secondary, button.btn.btn-primary {
+	background: rgba(231, 42, 96, 0.26);
+	color: #000;
+	border: 1px solid #E72A60;
+	margin: 0px 25px 0px 0px;
+}
+
+button.btn.btn-secondary a, button.btn.btn-primary a  {
+	color: #000;
+	text-decoration: none;
+}
+
+button.btn.btn-secondary:hover, button.btn.btn-primary:hover {
+	background: #E72A60;
+	color: #fff;
+	text-decoration:none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle 
+button.btn.btn-primary:active
+{
+	background: #E72A60 !important;
+	border-color: #E72A60 !important;
+	color: #fff !important;
+}
+
+img.imgModalProyect {
+	filter: none !important;
+	margin: auto;
+	width: 400px !important;
+}
+
+.modal-footer {
+	margin: auto;
+}
+
+/* FIN DE MIS PROYECTOS */
+
+/* DESCARGAS */
+
+section.container-documents.cont-section {
+	margin-top: -200px;
+}
+
+.container-documents{
+	background-image: url(imgs/bck-descargas.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.imgDocuments{
+	margin-top: 120px;
+	width: 250px;
+	border: 2px solid #e72a60;
+}
+
+.btnDocuments{
+	width: 150px;
+	background: #E72A60;
+	color:#fff;
+	border-radius: 5px;
+	border: none;
+	margin: 30px;
+	padding: 7px;
+}
+
+button.btnDocuments:hover a {
+	color: #000;
+	transition: .5s;
+}
+
+button.btnDocuments:hover {
+	background: #e8638a;
+	color: #000;
+	transition: .5s;
+	border: #e72a60;
+}
+
+button.btnDocuments a {
+	color: #fff;
+}
+
+i.fas.fa-download {
+	color: #000;
+	margin-right: 10px;
+}
+
+/* FIN DESCARGAS */
+
+/* CONTACTO */
+
+section.container-contact.cont-section {
+	text-align: center;
+}
+
+section.container-contact.cont-section a {
+	color: #fff;
+}
+
+section.container-contact.cont-section img {
+	width: 80px;
+	margin: 20px 80px;
+}
+
+.cuadroRedesSociales {
+	border: 2px solid #f82461;
+	width: 250px;
+	margin: -50px auto 20px auto;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+/* FIN CONTACTO */
+
+/* FOOTER */
+
+footer {
+	background: linear-gradient(180deg, rgba(255,255,255,1) 21%, rgba(248,36,97,1) 74%);
+	text-align: center;
+}
+
+footer img {
+	margin: 80px 0px 20px 0px;
+	border: 2px solid #f82461;
+	width: 150px;
+}
+
+footer p {
+	margin: 0px;
+	font-size: 20px;
+	color: #000;
+}
+
+/*Estilos para pantalla de 600px and lower*/
+
+@media screen and (max-width: 600px) {
+
+a.navbar-brand {
+    display: none;
+}
+
+.container-name.col-xs-12.col-sm-8 {
+	margin-top: 30%;
+}
+
+img.imgMe {
+	margin: 20px auto;
+	width: 285px;
+}
+
+img.imgLogoMe {
+	display: none;
+}
+
+p.infoAboutMe {
+	padding: 10px;
+}
+
+h1.titleAboutMe {
+	font-size: 60px;
+}
+
+section.container-briefCase.cont-section {
+	margin-top: 25px;
+}
+
+.container-briefCase.cont-section h1 {
+	font-size: 35px;
+}
+
+.container-briefCase.cont-section h2 {
+	margin-top: -40px;
+	font-size: 35px;
+}
+
+.containerProyects.row {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+button.navbar-toggler.collapsed {
+	border-color: #fff !important;
+}
+
+div#modalSocialBeer, div#modalBurgerQueen {
+	width: auto !important;
+}
+
+img.imgModalProyect {
+	width: 250px !important;
+}
+
+section.container-documents.cont-section {
+	margin-top: 220px;
+}
+
+img.imgDocuments {
+	margin-top: 80px;
+}
+
+button.btnDocuments {
+	margin: 15px;
+}
+
+section.container-contact.cont-section img {
+	width: 80px;
+	margin: 25px 10px;
+}
+
+footer p {
+	font-size: 18px;
+}
+
+}
+
+
+/*Estilos para pantalla de 515px and lower*/
+@media only screen and (max-width : 480px) {
+
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+
+}
